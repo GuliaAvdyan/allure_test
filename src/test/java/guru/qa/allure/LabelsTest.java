@@ -7,16 +7,12 @@ import org.junit.jupiter.api.Test;
 
 public class LabelsTest {
 
-    private static final String REPOSITORY = "eroshenkoam/allure-example";
-    private static final int ISSUE = 87;
-
-
     @Test
     @Feature("Issue в репозитории") // behaviors в allure отчете
     @Story("Создание Issue")
     @Owner("eroshenkoam")
     @Severity(SeverityLevel.BLOCKER)
-    @Link(value = "Testing", url = "https://testing.github.com")
+    @Link(value = "Testing", url = "https://github.com")
     @DisplayName("Создание Issue для авторизованного пользователя")
     public void staticLabelsTest() {
     }
@@ -30,7 +26,7 @@ public class LabelsTest {
         Allure.story("Создание Issue");
         Allure.label("owner", "eroshenkoam");
         Allure.label("sevetiry", SeverityLevel.CRITICAL.value());
-        Allure.link("Testing", "https://testing.github.com");
+        Allure.link("Testing", "https://github.com");
     }
 
 }
