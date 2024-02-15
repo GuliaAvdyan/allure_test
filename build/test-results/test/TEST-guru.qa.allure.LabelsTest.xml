@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.allure.LabelsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-15T18:15:59" hostname="NB-ISC-6140" time="0.204">
+  <properties/>
+  <testcase name="Создание Issue для авторизованного пользователя" classname="guru.qa.allure.LabelsTest" time="0.024"/>
+  <testcase name="dynamicLabelsTest()" classname="guru.qa.allure.LabelsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
