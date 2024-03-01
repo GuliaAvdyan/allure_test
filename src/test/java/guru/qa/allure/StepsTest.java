@@ -43,6 +43,7 @@ public class StepsTest {
 
     @Test
     public void annotatedTest() {
+        Configuration.holdBrowserOpen = true;
         SelenideLogger.addListener("allure", new AllureSelenide());
         WebSteps steps = new WebSteps();
 

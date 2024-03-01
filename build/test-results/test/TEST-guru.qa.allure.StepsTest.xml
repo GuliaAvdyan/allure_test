@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.allure.StepsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-01T12:22:22" hostname="NB-ISC-6140" time="95.996">
+  <properties/>
+  <testcase name="annotatedTest()" classname="guru.qa.allure.StepsTest" time="95.996"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[мар. 01, 2024 3:22:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 122
+]]></system-err>
+</testsuite>

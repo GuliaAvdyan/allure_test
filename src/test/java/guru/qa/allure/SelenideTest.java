@@ -1,7 +1,6 @@
 package guru.qa.allure;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
@@ -15,8 +14,6 @@ public class SelenideTest {
     @Test
     public void issueSearchTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-
-        Configuration.holdBrowserOpen = true;
         open("https://github.com/");
         $("[data-target='qbsearch-input.inputButtonText']").click();
 
