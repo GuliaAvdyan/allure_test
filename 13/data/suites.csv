@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 01 14:50:06 GMT 2024","Fri Mar 01 14:50:09 GMT 2024","2557","","guru.qa.allure.StepsTest","","guru.qa.allure.StepsTest","lambdaStepTest","lambdaStepTest()",""
+"passed","Fri Mar 01 14:50:00 GMT 2024","Fri Mar 01 14:50:04 GMT 2024","4649","","guru.qa.allure.SelenideTest","","guru.qa.allure.SelenideTest","issueSearchTest","issueSearchTest()",""
+"passed","Fri Mar 01 14:50:00 GMT 2024","Fri Mar 01 14:50:00 GMT 2024","1","","guru.qa.allure.LabelsTest","","guru.qa.allure.LabelsTest","staticLabelsTest","Создание Issue для авторизованного пользователя",""
+"passed","Fri Mar 01 14:50:04 GMT 2024","Fri Mar 01 14:50:06 GMT 2024","2085","","guru.qa.allure.StepsTest","","guru.qa.allure.StepsTest","annotatedTest","annotatedTest()",""
+"passed","Fri Mar 01 14:49:59 GMT 2024","Fri Mar 01 14:50:00 GMT 2024","1049","","guru.qa.allure.AttachmentsTest","","guru.qa.allure.AttachmentsTest","lambdaAttachmentsTest","lambdaAttachmentsTest()",""
+"passed","Fri Mar 01 14:49:56 GMT 2024","Fri Mar 01 14:49:58 GMT 2024","2366","","guru.qa.allure.AttachmentsTest","","guru.qa.allure.AttachmentsTest","annotatedAttachmentsTest","annotatedAttachmentsTest()",""
+"passed","Fri Mar 01 14:50:00 GMT 2024","Fri Mar 01 14:50:00 GMT 2024","3","","guru.qa.allure.LabelsTest","","guru.qa.allure.LabelsTest","dynamicLabelsTest","Создание Issue для авторизованного пользователя",""
