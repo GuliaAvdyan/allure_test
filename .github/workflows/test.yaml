@@ -20,7 +20,7 @@ jobs:
           chmod +x chromedriver
           sudo mv chromedriver /usr/local/bin/chromedriver
           sudo apt-get update
-          sudo apt-get install -y google-chrome-stable=122.0.6261.94-1
+          sudo apt-get install -y google-chrome-stable=121.0.6100.0
 
       # настраиваем java
       - uses: actions/setup-java@v4
